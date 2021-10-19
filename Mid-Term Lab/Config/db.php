@@ -4,8 +4,8 @@ class db{
     {
         $dbhost = "localhost";
         $dbuser = "root";
-        $dbpass = "276914049";
-        $db = "test_db";
+        $dbpass = "9634330";
+        $db = "aiub";
         $conn = new mysqli($dbhost, $dbuser, $dbpass,$db);
 
         if ($conn->connect_error) {
